@@ -1,0 +1,6 @@
+Product Wine 0,5
+Product Tomato 1,2
+Dairy Cheese 1,4 12
+Product Salad 1,2
+Dairy Milk 1,2 10
+Dairy Youghrt 1,4 0
