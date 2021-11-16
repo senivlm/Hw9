@@ -9,10 +9,12 @@ namespace Hw9
 {
    
     class Utilita
-    {
+    {//Делегат може описуватись зовні
         public delegate void Handler(string message);
+       //Чому тільки одна подія і з такою сигнатурою делегату. Це не відповідає умові. 
         public event Handler Notify;
         string Mes;
+       // Чому в Storage немає подій.
         static Storage storage = new Storage();
         readonly string path = @"C:\\Users\\admin\\source\\repos\\Hw9\\Hw9\\Storage.txt";
         Product nProduct = null;
